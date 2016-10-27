@@ -4,7 +4,14 @@ clear
 #es_deudor
 while [ "$var" != 4 ]
 do
-        echo -e "  \e[1;37;44m ¿Qué desea relizar?\e[0m
+        echo -e "\e[1;36m  B)bbbb   ##                                          ##      d)         
+  B)   bb                                                      d)         
+  B)bbbb   i) e)EEEEE n)NNNN  v)    VV e)EEEEE n)NNNN  i)  d)DDDD  o)OOO  
+  B)   bb  i) e)EEEE  n)   NN  v)  VV  e)EEEE  n)   NN i) d)   DD o)   OO 
+  B)    bb i) e)      n)   NN   v)VV   e)      n)   NN i) d)   DD o)   OO 
+  B)bbbbb  i)  e)EEEE n)   NN    v)     e)EEEE n)   NN i)  d)DDDD  o)OOO  \e[0m  
+
+        		\e[1;37;44m ¿Qué desea relizar?\e[0m
                 \e[1;32m1) Ingresar o verificar pago
                 2) Emitir estado de cuenta de propietarios\e[0m
                 \e[1;31m3) Salir\e[0m
