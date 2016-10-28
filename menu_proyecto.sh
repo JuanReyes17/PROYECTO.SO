@@ -1,7 +1,8 @@
+#Grupo: 2ºBH
+#Integrantes del grupo: Mauro Caitan, Federico Castro, Juan Reyes
+
 #!/bin/bash 
-source common_functions.sh
 clear
-#es_deudor
 while [ "$var" != 4 ]
 do
         echo -e "\e[1;36m  B)bbbb   ##                                          ##      d)         

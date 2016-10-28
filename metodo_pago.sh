@@ -1,3 +1,6 @@
+#Grupo: 2ºBH
+#Integrantes del grupo: Mauro Caitan, Federico Castro, Juan Reyes
+
 #!/bin/bash
 clear
 while [ "$var" != 3 ]
