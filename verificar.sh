@@ -1,7 +1,8 @@
+#!/bin/bash
+
 #Grupo: 2ºBH
 #Integrantes del grupo: Mauro Caitan, Federico Castro, Juan Reyes
 
-#!/bin/bash
 clear
 echo -e "\e[1;35m=================================================\e[0m"
 echo -ne "\e[1;36m-> \e[0m"

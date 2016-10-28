@@ -1,7 +1,8 @@
+#!/bin/bash
+
 #Grupo: 2ºBH
 #Integrantes del grupo: Mauro Caitan, Federico Castro, Juan Reyes
 
-#!/bin/bash
 source common_functions.sh
 
 echo -e "\e[1;35m=================================================\e[0m"
