@@ -10,8 +10,8 @@ aviso
 while [ "$var" != 4 ]
 do
         echo -e "\e[1;36m  B)bbbb   ##                                          ##      d)         
-  B)   bb                                                      d)         
-  B)bbbb   i) e)EEEEE n)NNNN  v)    VV e)EEEEE n)NNNN  i)  d)DDDD  o)OOO  
+  B)   bb      e)EEEE n)NNNN   v)    VV e)EEEE n)NNNN          d)  o)OOO                         
+  B)bbbb   i) e)      n)   NN  v)   VV e)      n)   NN i)  d)DDDD o)   OO
   B)   bb  i) e)EEEE  n)   NN  v)  VV  e)EEEE  n)   NN i) d)   DD o)   OO 
   B)    bb i) e)      n)   NN   v)VV   e)      n)   NN i) d)   DD o)   OO 
   B)bbbbb  i)  e)EEEE n)   NN    v)     e)EEEE n)   NN i)  d)DDDD  o)OOO  \e[0m  

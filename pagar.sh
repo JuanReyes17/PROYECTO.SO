@@ -60,12 +60,12 @@ then
           read op
           clear	
     else
-        echo -e "\e[1;32mNúmero de mes incorrecto\e[0m"
-        read -p "Presione ENTER para continuar"
+        echo -e "\e[1;32mNúmero de mes incorrecto, presione ENTER para continuar\e[0m"
+        read op
         clear
     fi  
 else
-    echo -e "\e[1;32mNúmero de apartamento incorrecto\e[0m"
-    read -p "Presione ENTER para continuar"
+    echo -e "\e[1;32mNúmero de apartamento incorrecto, presione ENTER para continuar\e[0m"
+    read op
     clear
 fi
