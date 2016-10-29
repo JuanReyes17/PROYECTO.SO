@@ -3,23 +3,23 @@
 #Grupo: 2ºBH
 #Integrantes del grupo: Mauro Caitan, Federico Castro, Juan Reyes
 
-# obtiene total meses de deuda para un apto
-function meses_deuda() 
-{
-  cat pagos.txt |grep "A${PAGO_APT}"| tr " " "\n" |grep  -w --count "0"
-}
+#function deudor()
+#
+#  cat pagos.txt | grep -w A2 | tr " " "\n" |grep  -w "2100" | awk '{ sum += $1 } END { print sum }'
 
-# verifica si un apartamento tiene mas de 4 meses de deuda
-# esto hay que arreglarlo está mal
-function es_deudor () 
+#}
+
+function aviso()
 {
-  MESES_DEUDA=$(cat pagos.txt |grep A* | tr " " "\n" |grep  -w --count "0")
-  if [[ "${MESES_DEUDA}" -ge 4 ]]
-  then 
-      echo -ne  "\e[1;32mEl apartamento $PAGO_APT debe $MESES_DEUDA meses\e[0m" >> deudor"$PAGO_APT".txt
-      if [ deudor"PAGO_APT.txt" ]
-      then
-          mv deudor"$PAGO_APT".txt /Deudores
-      fi
-  fi
+  for (( i=1; i<=17; i++ ))
+  do
+    cat pagos.txt | grep -w $i | tr " " "\n" |grep  -w "2100" | awk '{ sum += $1 } END { print sum }' >> aux
+    deudor=`cat aux`
+    if [ $deudor -gt 8399 ]
+    then
+        echo "El apartamento x debe $deudor"
+        read op    
+    fi
+    rm -r aux
+  done
 }
