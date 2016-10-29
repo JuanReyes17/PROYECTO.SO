@@ -18,7 +18,7 @@ then
 	echo -n "Total deuda: " >> $TEMP
 	cat $TEMP | tr " " "\n" |grep  -w "2100" | awk '{ sum += $1 } END { print sum }' >> $TEMP
 	cat $TEMP
-    read -p "Presione cualquier tecla para continuar"
+    read -p "Presione ENTER para continuar"
 	clear
     else
     echo -n "Número de apartamento incorrecto, para ingresar uno nuevo presione cualquier tecla, para salir s: "
