@@ -5,7 +5,8 @@
 
 source common_functions.sh
 
-#aviso
+aviso
+
 while [ "$var" != 4 ]
 do
         echo -e "\e[1;36m  B)bbbb   ##                                          ##      d)         
